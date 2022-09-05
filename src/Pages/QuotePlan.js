@@ -1,10 +1,8 @@
-import React from 'react'
-import NavBar from '../components/navbar/NavBar'
+import React from "react";
+import { NavBar } from "../components/navbar/NavBar";
 
 function QuotePlan() {
-  
-  
-    return (
+  return (
     <div>
       <NavBar />
       {/* Component: 4 dots - Personal Details, Vehicle Details, Additional Drivers, Compare & Choose */}
@@ -14,7 +12,7 @@ function QuotePlan() {
       {/* Component: BACK or Proceed With Quote */}
       {/* Footer: gray footer from login page */}
     </div>
-  )
+  );
 }
 
-export default QuotePlan
+export default QuotePlan;
