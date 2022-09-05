@@ -1,3 +1,7 @@
 .IHHeader {
-    padding: 10px;
+  padding: 10px;
+}
+
+.css-ttd4sk-MuiStack-root {
+  justify-content: space-between;
 }
