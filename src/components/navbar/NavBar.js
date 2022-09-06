@@ -1,8 +1,10 @@
 import React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 
 export const NavBar = () => {
+  let navigate = useNavigate();
   return (
     <div>
       {/* Header for Home Page */}
@@ -116,6 +118,7 @@ export const NavBar = () => {
               fontSize: "13px",
               textTransform: "none",
             }}
+            onClick={() => navigate("/personal-details")}
           >
             Get A Quote
           </Button>
