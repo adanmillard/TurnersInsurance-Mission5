@@ -17,7 +17,9 @@ export const NavBar = () => {
             style={{
               width: "160px",
               height: "33px",
+              cursor: "pointer",
             }}
+            onClick={() => navigate("/")}
           />
           {/* SEARCH ICON & BUTTON - NO INPUT FIELD ADDED */}
           <Button
@@ -118,7 +120,7 @@ export const NavBar = () => {
               fontSize: "13px",
               textTransform: "none",
             }}
-            onClick={() => navigate("/personal-details")}
+            onClick={() => navigate("/personal-details/contact-information")}
           >
             Get A Quote
           </Button>
