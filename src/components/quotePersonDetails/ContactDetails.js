@@ -1,7 +1,8 @@
 import React from "react";
-import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
+import { useNavigate } from "react-router-dom";
 
 export const ContactDetails = () => {
+  let navigate = useNavigate();
   return (
     <div>
       <form>
@@ -20,7 +21,16 @@ export const ContactDetails = () => {
             <input type="text"></input>
           </div>
         </div>
-        <NextAndBackButtons />
+        <div>
+          <button onClick={() => navigate("/")}> &lt; Back </button>
+          <button
+            type="submit"
+            onClick={() => navigate("/personal-details/vehicle-details")}
+          >
+            {" "}
+            Next{" "}
+          </button>
+        </div>
       </form>
     </div>
   );

@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
-import { PersonalDetails } from "../quotePersonDetails/PersonalDetails";
+import { DetailsForm } from "../quotePersonDetails/DetailsForm";
 
-export const AdditionalDriversForm = () => {
+export const AdditionalDriversForm = ({ setAddDrivers }) => {
+  const [addAnotherDriver, setAddAnotherDriver] = useState(false);
+
+  const addAnotherDriverFN = () => {
+    setAddAnotherDriver(true);
+  };
+
+  const cancelDrivers = () => {
+    setAddDrivers(false);
+  };
+
   return (
     <div>
       <div>
-        <PersonalDetails />
-        <div>
-          <button>Cancel Additional Driver</button>
-          <button>+ Add Another Driver</button>
-        </div>
+        <DetailsForm />
+      </div>
+      <div>{addAnotherDriver && <DetailsForm />}</div>
+      <div>
+        <button onClick={() => cancelDrivers()}>
+          Cancel Additional Driver
+        </button>
+        <button onClick={() => addAnotherDriverFN()}>
+          + Add Another Driver
+        </button>
         <NextAndBackButtons />
       </div>
     </div>

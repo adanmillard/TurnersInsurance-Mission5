@@ -1,8 +1,10 @@
 import React from "react";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 
 export const NavBar = () => {
+  let navigate = useNavigate();
   return (
     <div>
       {/* Header for Home Page */}
@@ -15,7 +17,9 @@ export const NavBar = () => {
             style={{
               width: "160px",
               height: "33px",
+              cursor: "pointer",
             }}
+            onClick={() => navigate("/")}
           />
           {/* SEARCH ICON & BUTTON - NO INPUT FIELD ADDED */}
           <Button
@@ -116,6 +120,7 @@ export const NavBar = () => {
               fontSize: "13px",
               textTransform: "none",
             }}
+            onClick={() => navigate("/personal-details/contact-information")}
           >
             Get A Quote
           </Button>
