@@ -1,0 +1,218 @@
+$background-color: #e7f1fc;
+$button-color: #0164d4;
+$background-border-radius: 20px;
+$small-input: 15px 130px 15px 20px;
+$input-border-radius: 12px;
+$input-border-none: none;
+$label-margin: 3%;
+
+input {
+  text-align: left;
+}
+
+label {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input,
+select {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 300;
+}
+//Personal Details
+.QPD-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1563px;
+}
+
+.DF-container {
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  height: 438px;
+  max-width: 804px;
+  border-radius: $background-border-radius;
+}
+
+.CD-container {
+  background-color: $background-color;
+  height: 375px;
+  max-width: 804px;
+  padding: 0 30px 0 30px;
+  border-radius: $background-border-radius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CI-h1,
+.PD-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.CI-h1 {
+  margin-top: 8%;
+}
+
+.back-and-next-btn {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn {
+  background-color: white;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 15px;
+  color: #8d8b89;
+  border: $input-border-none;
+}
+
+.next-btn {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  border: $input-border-none;
+  padding: 15px 65px;
+  border-radius: 30px;
+  color: white;
+  background-color: $button-color;
+  box-shadow: 53px 57px 31px rgba(0, 0, 0, 0.02),
+    30px 32px 26px rgba(0, 0, 0, 0.06), 13px 14px 20px rgba(0, 0, 0, 0.09),
+    3px 4px 11px rgba(0, 0, 0, 0.11), 0px 0px 0px rgba(0, 0, 0, 0.11);
+}
+
+//Details Form
+
+.FN-LN-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 4%;
+  .FN-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .LN-right {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: $label-margin;
+  }
+  input {
+    border-radius: $input-border-radius;
+    padding: $small-input;
+    border-style: $input-border-none;
+  }
+}
+
+.gender-DOB-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+
+  .gender-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .DOB-right {
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: $label-margin;
+  }
+  select {
+    width: 100%;
+    border-radius: $input-border-radius;
+    padding: 15px 0 15px 20px;
+    border-style: $input-border-none;
+  }
+  input {
+    width: 100%;
+    border-radius: $input-border-radius;
+    padding: 15px 0;
+    border-style: $input-border-none;
+  }
+}
+
+.license-type-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  label {
+    margin-bottom: $label-margin;
+  }
+  select {
+    text-align: left;
+    border-radius: $input-border-radius;
+    padding: 15px 140px 15px 20px;
+    border-style: $input-border-none;
+  }
+}
+
+//Contact Details
+
+.CD-email-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $label-margin;
+  label {
+    margin-bottom: $label-margin;
+  }
+  input {
+    border-radius: $input-border-radius;
+    padding: $small-input;
+    border-style: $input-border-none;
+    background-color: white;
+  }
+}
+
+.CD-address-container {
+  display: flex;
+  flex-direction: column;
+  label {
+    margin-bottom: $label-margin;
+  }
+  .line1 {
+    border-radius: $input-border-radius;
+    padding: $small-input;
+    border-style: $input-border-none;
+    margin-bottom: 2%;
+  }
+}
+
+.CD-address-small-inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .line2,
+  .line3,
+  .line4 {
+    padding: 15px 0 15px 20px;
+    border-style: $input-border-none;
+    border-radius: $input-border-radius;
+  }
+}
+
+.CD-form {
+  width: 100%;
+}

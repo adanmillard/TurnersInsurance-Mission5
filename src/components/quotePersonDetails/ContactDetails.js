@@ -1,37 +1,25 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 export const ContactDetails = () => {
-  let navigate = useNavigate();
   return (
-    <div>
-      <form>
-        <div>
-          <h1>Contact Information</h1>
-
-          <div>
+    <div className="CD-container">
+      <div className="CD-form">
+        <form>
+          <div className="CD-email-container">
             <label>Email</label>
             <input type="email" />
           </div>
-          <div>
+          <div className="CD-address-container">
             <label>Address</label>
-            <input type="text"></input>
-            <input type="text"></input>
-            <input type="text"></input>
-            <input type="text"></input>
+            <input autoComplete="street-address" className="line1"></input>
+            <div className="CD-address-small-inputs">
+              <input autoComplete="address-level2" className="line2"></input>
+              <input autoComplete="address-level1" className="line3"></input>
+              <input autoComplete="postal-code" className="line4"></input>
+            </div>
           </div>
-        </div>
-        <div>
-          <button onClick={() => navigate("/")}> &lt; Back </button>
-          <button
-            type="submit"
-            onClick={() => navigate("/personal-details/vehicle-details")}
-          >
-            {" "}
-            Next{" "}
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 };
