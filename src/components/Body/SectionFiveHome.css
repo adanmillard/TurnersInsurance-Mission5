@@ -1,0 +1,49 @@
+.sectionFiveBodyHome {
+    background-image: url(https://i.postimg.cc/c4N2D8zb/blue-Blur5edit7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+.sectionFiveHomeHeader {
+    text-align: center;
+}
+
+.testimonialsSecFive {
+    font-family: Outfit;
+    color: #4763B9;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sectionFiveTitle {
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 600;
+    position: relative;
+    top: -20px;
+}
+
+.testImgvsCardSpace{
+    align-items: center;
+}
+
+.testimonialImage {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+}
+
+.testCardsandImg {
+    justify-content: center;
+}
+
+.testCardText {
+    font-size: 24px;
+    font-family: Open Sans;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    font-weight:400
+}

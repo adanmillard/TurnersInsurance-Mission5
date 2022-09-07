@@ -1,0 +1,12 @@
+.sectionThreeBodyHome {
+    background-image: url(https://i.postimg.cc/sfNJMvGx/blueblur3edit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: -23px;
+}
+.sectionThreeHomeHeader{
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: center;
+}

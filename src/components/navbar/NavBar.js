@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 
 export const NavBar = () => {
   return (
-    <div>
+    <div className="NavBarMain">
       {/* Header for Home Page */}
       <header className="IHHeader">
         <Stack spacing={5.1} direction="row">

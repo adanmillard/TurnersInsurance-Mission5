@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://i.postimg.cc/NfC2gMGY/blue-Blur-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    width: 70%;
+    margin: 0rem auto 0rem auto;
+
+}
+
+.CarImg {
+    width: 450px;
+}
+
+.openingLine {
+    font-family: Open Sans;
+    font-size: 38px;
+}
+
+p {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight:normal;
+}
