@@ -2,6 +2,7 @@ import React from "react";
 import { ContactDetails } from "./ContactDetails";
 import { DetailsForm } from "./DetailsForm";
 import { useNavigate } from "react-router-dom";
+import { ProgressBar } from "../progressBar/ProgressBar";
 
 export const PersonalDetails = () => {
   let navigate = useNavigate();
@@ -13,6 +14,7 @@ export const PersonalDetails = () => {
 
   return (
     <div className="QPD-main-container">
+      <ProgressBar />
       <form onSubmit={handleSubmit}>
         <h1 className="PD-h1">Personal Information</h1>
         <DetailsForm />
