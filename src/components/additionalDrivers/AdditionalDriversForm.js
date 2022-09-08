@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
+// import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
 import { DetailsForm } from "../quotePersonDetails/DetailsForm";
+import { useNavigate } from "react-router-dom";
 
 export const AdditionalDriversForm = ({ setAddDrivers }) => {
   const [addAnotherDriver, setAddAnotherDriver] = useState(false);
+  let navigate = useNavigate();
 
   const addAnotherDriverFN = () => {
     setAddAnotherDriver(true);
@@ -15,18 +17,34 @@ export const AdditionalDriversForm = ({ setAddDrivers }) => {
 
   return (
     <div>
-      <div>
+      <div className="DF-AD-container">
         <DetailsForm />
       </div>
-      <div>{addAnotherDriver && <DetailsForm />}</div>
-      <div>
-        <button onClick={() => cancelDrivers()}>
-          Cancel Additional Driver
+      <div className="DF-AD-container">
+        {addAnotherDriver && <DetailsForm />}
+      </div>
+      <div className="cover-up">
+        <div className="cancel-add-btns">
+          <button className="cancel-btn" onClick={() => cancelDrivers()}>
+            Cancel Additional Driver
+          </button>
+          <button className="add-btn" onClick={() => addAnotherDriverFN()}>
+            + Add Another Driver
+          </button>
+        </div>
+      </div>
+      <div className="back-and-next-btn">
+        <button
+          onClick={() => navigate("/personal-details/vehicle-details")}
+          className="back-btn"
+        >
+          {" "}
+          &lt; Back{" "}
         </button>
-        <button onClick={() => addAnotherDriverFN()}>
-          + Add Another Driver
+        <button type="submit" className="next-btn">
+          {" "}
+          Next{" "}
         </button>
-        <NextAndBackButtons />
       </div>
     </div>
   );
