@@ -7,15 +7,8 @@ import Button from "@mui/material/Button";
 export const HomeBody = () => {
   return (
 <div>
-<img
-            src="https://i.postimg.cc/5N92hFNT/image3.png"
-            alt="turnersLogo"
-            className="turnersLogosec1"
-            style={{
-              width: "160px",
-              height: "33px",
-            }} />
-    <body/>
+
+  <body className="sectionOneHome">
     <div class="section1">
     <div className="textOpening">
     <h1 className="openingLine">Manage your insurance and <br/>vehicles all in one place!</h1>
@@ -36,6 +29,7 @@ export const HomeBody = () => {
     </div>
     <img src="https://i.postimg.cc/QCvLnW5N/carBlue.png" alt="homeCar" className="CarImg"/>
     </div>
+    </body>
     </div>
   );
 };
