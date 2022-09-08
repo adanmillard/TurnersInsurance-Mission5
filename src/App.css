@@ -1,1 +1,445 @@
-/*# sourceMappingURL=App.css.map */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  text-align: left;
+}
+
+label {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input,
+select {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.QPD-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 1563px;
+}
+
+.DF-container {
+  background-color: #e7f1fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  height: 438px;
+  width: 804px;
+  border-radius: 20px;
+}
+
+.CD-container {
+  background-color: #e7f1fc;
+  height: 375px;
+  width: 804px;
+  padding: 0 30px 0 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CI-h1,
+.PD-h1,
+.VD-h1,
+.AD-h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.CI-h1 {
+  margin-top: 8%;
+}
+
+.back-and-next-btn {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn {
+  background-color: white;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 15px;
+  color: #8d8b89;
+  border: none;
+}
+
+.next-btn {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  padding: 15px 65px;
+  border-radius: 30px;
+  color: white;
+  background-color: #0164d4;
+  box-shadow: 53px 57px 31px rgba(0, 0, 0, 0.02), 30px 32px 26px rgba(0, 0, 0, 0.06), 13px 14px 20px rgba(0, 0, 0, 0.09), 3px 4px 11px rgba(0, 0, 0, 0.11), 0px 0px 0px rgba(0, 0, 0, 0.11);
+}
+
+.FN-LN-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 4%;
+}
+.FN-LN-container .FN-left {
+  display: flex;
+  flex-direction: column;
+}
+.FN-LN-container .LN-right {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.FN-LN-container label {
+  margin-bottom: 3%;
+}
+.FN-LN-container input {
+  border-radius: 12px;
+  padding: 15px 130px 15px 20px;
+  border-style: none;
+}
+
+.gender-DOB-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+}
+.gender-DOB-container .gender-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.gender-DOB-container .DOB-right {
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.gender-DOB-container label {
+  margin-bottom: 3%;
+}
+.gender-DOB-container select {
+  width: 100%;
+  border-radius: 12px;
+  padding: 15px 0 15px 20px;
+  border-style: none;
+}
+.gender-DOB-container input {
+  width: 100%;
+  border-radius: 12px;
+  padding: 15px 0;
+  border-style: none;
+}
+
+.license-type-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.license-type-container label {
+  margin-bottom: 3%;
+}
+.license-type-container select {
+  text-align: left;
+  border-radius: 12px;
+  padding: 15px 140px 15px 20px;
+  border-style: none;
+}
+
+.CD-email-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+.CD-email-container label {
+  margin-bottom: 3%;
+}
+.CD-email-container input {
+  border-radius: 12px;
+  padding: 15px 130px 15px 20px;
+  border-style: none;
+  background-color: white;
+}
+
+.CD-address-container {
+  display: flex;
+  flex-direction: column;
+}
+.CD-address-container label {
+  margin-bottom: 3%;
+}
+.CD-address-container .line1 {
+  border-radius: 12px;
+  padding: 15px 130px 15px 20px;
+  border-style: none;
+  margin-bottom: 2%;
+}
+
+.CD-address-small-inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.CD-address-small-inputs .line2,
+.CD-address-small-inputs .line3,
+.CD-address-small-inputs .line4 {
+  padding: 15px 0 15px 20px;
+  border-style: none;
+  border-radius: 12px;
+}
+
+.CD-form {
+  width: 100%;
+}
+
+.VD-main-container {
+  width: 100%;
+  height: 1262px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.VD-form-container {
+  background-color: #e7f1fc;
+  height: 536px;
+  width: 804px;
+  padding: 0 30px 0 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.VD-license-and-year {
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.VD-license-and-year label {
+  margin-bottom: 3%;
+}
+
+.VD-license-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.VD-year-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.VD-make-and-model {
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.VD-make-and-model label {
+  margin-bottom: 3%;
+}
+
+.VD-make-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.VD-model-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.test {
+  border-style: none;
+  border-radius: 12px;
+  padding: 15px 130px 15px 20px;
+}
+
+.VD-car-park {
+  width: 100%;
+}
+.VD-car-park label {
+  margin-bottom: 3%;
+}
+.VD-car-park .VD-carpark-address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+.VD-car-park .VD-carpark-address input {
+  border-style: none;
+  border-radius: 12px;
+  padding: 15px 130px 15px 20px;
+}
+.VD-car-park .VD-carpark-address-line2 {
+  display: flex;
+  justify-content: space-between;
+}
+.VD-car-park .VD-carpark-address-line2 input {
+  width: 29%;
+  padding: 15px 0 15px 10px;
+  border-style: none;
+  border-radius: 12px;
+}
+
+.AD-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 1628px;
+}
+
+.AD-question-container {
+  background-color: #e7f1fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px 0 30px;
+  height: 189px;
+  width: 687px;
+  border-radius: 20px;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.btn-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container .AD-btn {
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px 50px;
+  border: 3px solid #d9d9d9;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.AD-back-btn {
+  margin-bottom: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.DF-AD-container {
+  margin-bottom: 5%;
+}
+
+.cancel-add-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  background-color: white;
+  border: none;
+}
+
+.add-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: white;
+  color: #0164d4;
+  border: 3px solid #0164d4;
+  border-radius: 10px;
+  padding: 18px 21px;
+}
+
+.progress-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+  outline: 1px solid #5dadec;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #5dadec;
+}
+
+.circle-complete {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #5dadec;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.circle-containers {
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.dotted-line {
+  z-index: -1;
+  position: absolute;
+  width: 75%;
+  margin-bottom: 90px;
+  border-bottom: 2px dashed #bdbcba;
+}/*# sourceMappingURL=App.css.map */
