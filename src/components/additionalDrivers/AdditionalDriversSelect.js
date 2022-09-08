@@ -10,18 +10,27 @@ export const AdditionalDriversSelect = () => {
   };
 
   return (
-    <div>
+    <div className="AD-main-container">
+      <h1 className="AD-h1">Additional Drivers</h1>
       <div>
-        <h1>Additional Drivers</h1>
-        <div>
-          <p>will there be any additional Drivers?</p>
-          <button onClick={addingDrivers}>Yes</button>
-          <button>No</button>
+        <div className="AD-question-container">
+          <p>Will there be any additional drivers?</p>
+          <div className="btn-container">
+            <button onClick={addingDrivers} className="AD-btn">
+              Yes
+            </button>
+            <button className="AD-btn">No</button>
+          </div>
         </div>
-        <button onClick={() => navigate("/personal-details/vehicle-details")}>
-          {" "}
-          &lt; Back{" "}
-        </button>
+        <div className={addDrivers ? "hidden" : "AD-back-btn"}>
+          <button
+            onClick={() => navigate("/personal-details/vehicle-details")}
+            className="back-btn"
+          >
+            {" "}
+            &lt; Back{" "}
+          </button>
+        </div>
       </div>
       <div>
         {addDrivers && <AdditionalDriversForm setAddDrivers={setAddDrivers} />}
