@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
 import { DetailsForm } from "../quotePersonDetails/DetailsForm";
 import { useNavigate } from "react-router-dom";
 
