@@ -6,6 +6,8 @@ import { SectionTwoHome } from "../components/Body/SectionTwoHome";
 import { SectionThreeHome } from "../components/Body/SectionThreeHome";
 import { SectionFourHome } from "../components/Body/SectionFourHome";
 import { SectionFiveHome } from "../components/Body/SectionFiveHome";
+import { SectionSixHome } from "../components/Body/SectionSixHome";
+import { HomeFooter } from "../components/Body/HomeFooter";
 
 export const InsuranceHome = () => {
   return (
@@ -16,6 +18,8 @@ export const InsuranceHome = () => {
       <SectionThreeHome />
       <SectionFourHome />
       <SectionFiveHome />
+      <SectionSixHome />
+      <HomeFooter />
     </div>
   );
 };

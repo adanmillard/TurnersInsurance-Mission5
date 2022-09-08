@@ -1,0 +1,18 @@
+.HomeFooterSection {
+    background-color: #2F2F2F;
+    margin-left: -10px;
+}
+
+.footerHomeContentAll {
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copyRight2022 {
+    font-family: Open Sans;
+    font-size: 14;
+    color: #BDBCBA;
+}
+

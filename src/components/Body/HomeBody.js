@@ -7,6 +7,14 @@ import Button from "@mui/material/Button";
 export const HomeBody = () => {
   return (
 <div>
+<img
+            src="https://i.postimg.cc/5N92hFNT/image3.png"
+            alt="turnersLogo"
+            className="turnersLogosec1"
+            style={{
+              width: "160px",
+              height: "33px",
+            }} />
     <body/>
     <div class="section1">
     <div className="textOpening">

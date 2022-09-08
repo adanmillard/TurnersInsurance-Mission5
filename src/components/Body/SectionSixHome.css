@@ -1,0 +1,24 @@
+.sectionSixBodyHome {
+    background-color: #8F9091;
+    margin-left: -10px;
+}
+
+.SectionSixTitleandContent {
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    justify-content: center;
+}
+
+.secSixTitle {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.secSixcontent {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+}
