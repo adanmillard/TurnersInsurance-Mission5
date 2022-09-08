@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { NextAndBackButtons } from "../nextAndBackButtons/NextAndBackButtons";
 import { DetailsForm } from "../quotePersonDetails/DetailsForm";
 import { useNavigate } from "react-router-dom";
 
@@ -28,7 +27,10 @@ export const AdditionalDriversForm = ({ setAddDrivers }) => {
           <button className="cancel-btn" onClick={() => cancelDrivers()}>
             Cancel Additional Driver
           </button>
-          <button className="add-btn" onClick={() => addAnotherDriverFN()}>
+          <button
+            className={addAnotherDriver ? "hidden" : "add-btn"}
+            onClick={() => addAnotherDriverFN()}
+          >
             + Add Another Driver
           </button>
         </div>
