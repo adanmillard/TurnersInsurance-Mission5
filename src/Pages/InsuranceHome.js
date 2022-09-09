@@ -12,7 +12,6 @@ import { HomeFooter } from "../components/Body/HomeFooter";
 export const InsuranceHome = () => {
   return (
     <div>
-      <NavBar />
       <HomeBody /><br></br><br></br><br></br>
       <SectionTwoHome />
       <SectionThreeHome />
