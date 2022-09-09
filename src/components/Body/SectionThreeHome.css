@@ -1,76 +1,76 @@
 .sectionThreeBodyHome {
-    background-image: url(https://i.postimg.cc/W45PcW22/blue2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -10px;
-    margin-top: -23px;
+  background-image: url(https://i.postimg.cc/W45PcW22/blue2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-top: -23px;
 }
 
 .secThreeCompareTilesections {
-    text-align: end;
-    padding-right: 50px;
-    margin-top: 165px;
+  text-align: end;
+  padding-right: 50px;
+  margin-top: 165px;
 }
 
 .Star {
-    position: absolute;
-    margin-left: -400px;
-    margin-top: -80px;
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -80px;
 }
 
 .secThreecontentLeft {
-    font-family: Roboto;
-    font-weight: 500;
+  font-family: Roboto;
+  font-weight: 500;
 }
 
-.sectionThreeHomeHeader{
-    font-family: Open Sans;
-    font-size: 24px;
-    text-align: center;
+.sectionThreeHomeHeader {
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
 }
 
 .secThreeCompareTile1 {
-    border: 4px solid;
-    border-color: #0164D4;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 30px;
-    box-shadow: 0 10px 9px -1px grey;
+  border: 4px solid;
+  border-color: #0164d4;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 30px;
+  box-shadow: 0 10px 9px -1px grey;
 }
 
 .secThreeCompareTile2 {
-    border: 2px solid;
-    border-color: #559DD6;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 30px;
-    box-shadow: 0 10px 9px -1px grey;
+  border: 2px solid;
+  border-color: #559dd6;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 30px;
+  box-shadow: 0 10px 9px -1px grey;
 }
 .secThreeCompareTile3 {
-    border: 2px solid;
-    border-color: #559DD6;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    border-radius: 30px;
-    box-shadow: 0 10px 9px -1px grey;
+  border: 2px solid;
+  border-color: #559dd6;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 30px;
+  box-shadow: 0 10px 9px -1px grey;
 }
 
 .checkMarkHome {
-    width: 20px;
+  width: 20px;
 }
 
 .secThreeTitle {
-    font-family: Open Sans;
-    font-size: 28px;
+  font-family: Roboto;
+  font-size: 28px;
 }
 
 .secThreecontent {
-    font-family: Roboto;
-    font-weight: 500;
+  font-family: Roboto;
+  font-weight: 500;
 }

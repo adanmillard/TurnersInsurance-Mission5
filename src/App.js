@@ -1,5 +1,5 @@
 import "./App.css";
-
+import "./components/navbar/NavBar.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { InsuranceHome } from "./Pages/InsuranceHome";
 import { QuotePersonalDetails } from "./Pages/QuotePersonalDetails";

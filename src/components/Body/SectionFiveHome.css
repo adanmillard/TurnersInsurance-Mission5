@@ -1,49 +1,49 @@
 .sectionFiveBodyHome {
-    background-image: url(https://i.postimg.cc/26XHBfJJ/blue.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -10px;
-    margin-right: -8px;
+  background-image: url(https://i.postimg.cc/26XHBfJJ/blue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -8px;
 }
 
 .sectionFiveHomeHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .testimonialsSecFive {
-    font-family: Outfit;
-    color: #4763B9;
-    font-weight: 600;
-    font-size: 22px;
+  font-family: Roboto;
+  color: #4763b9;
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .sectionFiveTitle {
-    font-family: Open Sans;
-    font-size: 38px;
-    font-weight: 600;
-    position: relative;
-    top: -20px;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 600;
+  position: relative;
+  top: -20px;
 }
 
-.testImgvsCardSpace{
-    align-items: center;
+.testImgvsCardSpace {
+  align-items: center;
 }
 
 .testimonialImage {
-    height: 140px;
-    width: 140px;
-    position: absolute;
+  height: 140px;
+  width: 140px;
+  position: absolute;
 }
 
 .testCardsandImg {
-    justify-content: center;
+  justify-content: center;
 }
 
 .testCardText {
-    font-size: 24px;
-    font-family: Open Sans;
-    text-align: center;
-    display: flex;
-    padding: 20px;
-    font-weight:400
+  font-size: 24px;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  font-weight: 400;
 }

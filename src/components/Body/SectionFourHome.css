@@ -1,38 +1,38 @@
 .sectionFourBodyHome {
-        background-image: url(https://i.postimg.cc/WpZcW8fj/blue-Blur4edit.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: -10px;
-        margin-right: -8px;
+  background-image: url(https://i.postimg.cc/WpZcW8fj/blue-Blur4edit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -8px;
 }
 
 .sectionFourHomeHeader {
-    font-family: Open Sans;
-    font-size: 24px;
-    text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
 }
 
 .sectionFourCircles {
-    background-color: #2D83C6;
-    padding: 20px;
-    width: 220px;
-    height: 220px;
-    border-radius: 150px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 24px;
-    font-family: Roboto;
-    font-weight: 300;
-    color: #F2F8FE;
+  background-color: #2d83c6;
+  padding: 20px;
+  width: 220px;
+  height: 220px;
+  border-radius: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #f2f8fe;
 }
 
 .arrowSectionFour {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 120px;
-    width: 50px;
-    height: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px;
+  width: 50px;
+  height: 20px;
 }

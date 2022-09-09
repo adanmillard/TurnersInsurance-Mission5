@@ -1,18 +1,18 @@
- .css-ttd4sk-MuiStack-root {
-    justify-content: space-between;
-  }
+.css-ttd4sk-MuiStack-root {
+  justify-content: space-between;
+}
 
 .NavBarMain {
-    background-color: white;
-    height: 80px;
-    box-shadow: 0 9px 6px -6px grey;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: -10px;
-    width: 1421px;
-    margin-top: -10px;
-  }
+  background-color: white;
+  height: 80px;
+  box-shadow: 0 9px 6px -6px grey;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -10px;
+  width: 100%;
+  margin-top: -10px;
+}
