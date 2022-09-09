@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export const NavBar = () => {
   let navigate = useNavigate();
   return (
-    <div>
+    <div className="NavBarMain">
       {/* Header for Home Page */}
       <header className="IHHeader">
         <Stack spacing={5.1} direction="row">

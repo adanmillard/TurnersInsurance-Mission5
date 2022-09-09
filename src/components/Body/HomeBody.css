@@ -1,0 +1,33 @@
+.sectionOneHome {
+    background-image: url(https://i.postimg.cc/YCXxD5Ps/blueOne.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -8px;
+    
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    width: 70%;
+    margin: 6rem auto 0rem auto;
+
+}
+
+.CarImg {
+    width: 450px;
+}
+
+.openingLine {
+    font-family: Open Sans;
+    font-size: 38px;
+}
+
+p {
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight:normal;
+}
